@@ -1,0 +1,41 @@
+{
+  "name": "@cellar-door/attestation-core",
+  "version": "0.1.0",
+  "description": "Shared attestation primitives for EXIT Protocol adapters — marker hashing, salt generation, and core types.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "viem": "^2.47.0",
+    "vitest": "^4.0.18"
+  },
+  "license": "Apache-2.0",
+  "author": "Cellar Door (https://cellar-door.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CellarDoorExits/attestation-core"
+  },
+  "homepage": "https://cellar-door.dev",
+  "keywords": ["exit-protocol", "attestation", "ai-agents", "cellar-door"]
+}
