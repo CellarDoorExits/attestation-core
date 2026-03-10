@@ -25,6 +25,7 @@
     "viem": "^2.0.0"
   },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "viem": "^2.47.0",
@@ -37,5 +38,10 @@
     "url": "https://github.com/CellarDoorExits/attestation-core"
   },
   "homepage": "https://cellar-door.dev",
-  "keywords": ["exit-protocol", "attestation", "ai-agents", "cellar-door"]
+  "keywords": [
+    "exit-protocol",
+    "attestation",
+    "ai-agents",
+    "cellar-door"
+  ]
 }
